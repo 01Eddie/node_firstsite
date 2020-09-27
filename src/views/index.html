@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   
+    <!--  <title>First Node Website asdfddsa</title> -->
+    <title><%= title %></title>
+
+    <%- include ('partials/head.html')%>
+
+    <style>
+        body{
+            font-family: 'Spicy Rice', cursive;
+    }
+    </style>
+
+</head>
+<body>
+ <!--  <h1>Hello World <%= 5+10 %>  <%= new Date() %> </h1>  -->
+<!--  <nav>
+        <ul>
+            <ul> <a href=""> Index </a> </ul>
+            <ul> <a href="./contact.html">Contact</a> </ul>
+        </ul>
+    </nav>  -->
+    
+    <%- include ('partials/navigation.html')%>
+
+ <div class="container">
+     <header class="row">
+         <div class="col-lg-12 text-center">
+             <img src="/img/pews-logo.png" alt="pews logo" class="animated bounceIn">
+         </div>
+     </header>
+ </div>
+
+<!--Section One-->
+<div class="container-fluid" id="about">
+<div class="row bg-dark text-white p-5 text-center">
+    <div class="col-sm-6">
+        <i class="fab fa-youtube fa-10px"></i>
+    </div>
+    <div class="col-sm-6">
+        <h3>The most suscribed Youtuber</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis commodi, ipsa quos libero officiis dignissimos ipsum ut dolor eveniet expedita at illo, animi ex corrupti quia atque blanditiis minus eum!</p>
+    </div>
+</div>
+</div>
+
+<%- include ('partials/footer.html')%>
+
+    <!--
+    <script>
+        alert('works!!')
+    </script>
+    -->
+    <!--Bootstrap 4-->
+    
+
+</body>
+</html>
